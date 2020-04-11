@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.topnav {background-color: #000000;overflow: hidden;}
+.topnav a {float: right;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 17px;}
+.topnav a:hover {background-color: #5B9039;color: black;}
+.topnav a:last-child{float:left;margin-right:20%;font-size:25px;}
+.topnav input[type=text] {float: left;padding: 6px;border: none;margin-top: 8px;margin-right: 16px;font-size: 17px;}
+.topnav button{margin-top:1%; font-size:15px;}
+
+h1{font-size: 70px;margin-bottom:20px;font-weight: 300;margin-left:30%; color:#000000}
+p{margin:0 0 10px;}
+h2{color:#000000;font-size:28px;margin:20px 0;}
+
+#login input{display:inline-block;width: calc(100% - 50px);height: 50px;padding-left: 5px;vertical-align: top;border: 2px solid #dddddd;font-size: 20px;margin-bottom: 20px}
+#login input[type="submit"]{float:right;display: block;width: 50%;height: 60px;line-height: 60px;background-color: #000000;color: #ffffff;font-size: 20px;text-align: center;border: 0;margin-right: 7%;}
+#login {width:40%; margin: 0 auto}
+#login i{background: url() no-repeat;background-size: 250px 50px;width: 50px;height: 50px;display: inline-block;vertical-align: top;}
+#login #usuario{background-position: -50px 0px;}
+#login #password{background-position: 0px 0px;}
+
+ul {list-style-type: none;}
+#userposts{padding: 5%; margin: -10vh 10% 0; position:relative;}
+#userposts ul{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between;}
+#userposts ul li {width: 42%;margin-top:4%; border:1px solid #000000;padding:3%}
+#userposts button{color:#64dd17;border:1px solid #64dd17; margin-left:20%;}
+.fecha {display: flex;}
+.fecha p:last-child{margin-left:2%}
+#comentario{font-size: 20px;}
+#empresa{font-size:25px;display:flex;}
+hr{width:40%; margin-right:70%}
+#topbutton{margin-top:4%;margin-left:80%}
+
+

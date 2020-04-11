@@ -1,0 +1,1 @@
+{"status":"done","error":"unknown-error","message":"[tsl] ERROR in /Users/pablogarciarubio/Desktop/back/front/src/App.tsx(13,8)\n      TS1192: Module '\"/Users/pablogarciarubio/Desktop/back/front/src/PostEnDetalle\"' has no default export.","chunks":{"main":[{"name":"bundle.js","path":"/Users/pablogarciarubio/Desktop/back/front/assets/webpack_bundles/bundle.js"}]}}
