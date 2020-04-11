@@ -1,0 +1,8 @@
+# ignored dirs
+idea/
+__pycache__/
+
+# ignored files
+.idea
+*.pyc
+
